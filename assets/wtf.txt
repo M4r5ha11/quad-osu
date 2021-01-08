@@ -1,0 +1,3 @@
+body {
+/*background-color: #c1d5e0;*/ or /*https://debian.moe/static/image/image.png*/
+}

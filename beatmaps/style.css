@@ -6,9 +6,11 @@ text-align: center;
 display: table;
 margin: auto;
 width: 50%;
-/*color: #cfd8dc;*/
-background: #343a40;
-font-family: Source Code Pro, monospace;
+color: #cfd8dc;
+/*background: #343a40;*/
+background-image: url('https://osu.ppy.sh/assets/images/default-bg.7594e945.png');
+font-family: Roboto, sans-serif;
+border: 6px #EEE;
 }
 .footer {
 font-family: Source Code Pro, monospace;
@@ -37,27 +39,32 @@ text-align: left;
 .logo {
 width: 4%;
 }
-.card { 
+.card1 { 
+color: #FFF;
+height: 170px;
+width: 90%;
+background-image: url('https://assets.ppy.sh/beatmaps/1192577/covers/cover.jpg?1609232671');
+background-repeat: no-repeat;
+background-position: left;
+}
+.card-name {
+color: #FFF;
+/*background: #1c313a;*/
 font-family: Comfortaa, cursive;
-color: #FFF000;
-/*height: 75px;*/
-padding: 10px;
-transform: translateZ(0);
-box-shadow: 0 1px 3px rgba(0,0,0,.25);
-border-radius: 6px 6px 4px 4px;
+font-size: medium;
+}
+.card-author {
+font-family: Comfortaa, cursive;
+font-size: small;
+color: #FFF;
+}
+.search {
+font-size: 15px;
+padding: 0;
+padding-inline-end: 48px;
+padding-inline-start: 46px;
 width: 100%;
-background: #1c313a;
-display: block;
-color: #fff;
-text-decoration: none;
-text-shadow: 0 1px 1px rgba(0,0,0,.75);
-/*background-image: url(https://osu.ppy.sh/assets/images/default-bg.7594e945.png);*/
-background-size: auto auto;
-background-position: 50%;
-background-size: cover;
-font-weight: 400;
-height: 120px;
-border-radius: 4px 4px 0 0;
-overflow: hidden;
-position: relative;
+}
+input {
+width: 100%;
 }
